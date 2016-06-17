@@ -1,0 +1,15 @@
+
+img {
+	margin: 15px 0px;
+
+	/* Urban Outfitters uses this transition when hovering over images on their site
+	   so I used the same one */
+
+			transition: opacity .25s ease-in-out;
+	   -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.7;
+}

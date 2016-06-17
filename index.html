@@ -2,11 +2,51 @@
 <html>
   <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+
     <title>UO FrontEnd Test</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+  	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+  	<!-- This is a hosting of the bootstrap CSS, I didn't include bootstrap theme or javascript since I was just using it for the grid -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
   </head>
+
   <body>
+
+  	<div class="container">
+  		<div class ="row">
+
+  			<!-- Bootstrap uses a 12 column grid, so on phones all of the images just follow each other semantically, on small devices (>768px) like tablets each image is half the grid or 6 out of 12 creating two columns, and on full size computers (>992px) each image is one third of the grid or 4 out of the 12 creating three columns -->
+
+  			<div class="col-sm-6 col-md-4">
+  				<img src="images/1.jpg">
+  			</div>
+
+  			<div class="col-sm-6 col-md-4">
+  				<img src="images/2.jpg">
+  			</div>
+
+  			<div class="col-sm-6 col-md-4">
+  				<img src="images/3.jpg">
+  			</div>
+
+  			<div class="col-sm-6 col-md-4">
+  				<img src="images/4.jpg">
+  			</div>
+
+  			<div class="col-sm-6 col-md-4">
+  				<img src="images/5.jpg">
+  			</div>
+
+  			<div class="col-sm-6 col-md-4">
+  				<img src="images/6.jpg">
+  			</div>
+  		</div>
+  	</div>
   
   </body>
+
 </html>
